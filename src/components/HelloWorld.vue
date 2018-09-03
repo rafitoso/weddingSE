@@ -1,7 +1,7 @@
 <template>
   <div class="hello">
     <h1>{{ msg }}</h1>
-    <h2>Essential Links</h2>
+    <h2>Essential Linkssss</h2>
     <ul>
       <li>
         <a
@@ -80,12 +80,19 @@
         </a>
       </li>
     </ul>
+    <home msg="HERE"></home>
   </div>
 </template>
 
 <script>
+
+import Home from '@/components/Home'
+
 export default {
   name: 'HelloWorld',
+  components: {
+    Home
+  },
   data () {
     return {
       msg: 'Welcome to Your Vue.js App'
