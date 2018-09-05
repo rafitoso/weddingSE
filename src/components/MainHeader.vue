@@ -24,7 +24,7 @@
                     <div class="gla_over" data-color="#000" data-opacity="0.7"></div>
                 </div>
 
-                <div class="gla_main_menu_content_menu gla_wht_txt text-right">
+                <!-- <div class="gla_main_menu_content_menu gla_wht_txt text-right">
                     <div class="container">
                         <ul>
                             <li class="gla_parent"><a href="#">Demos</a>
@@ -54,9 +54,6 @@
                             <div class="gla_footer_social">
                                 <a href="#"><i class="ti ti-facebook gla_icon_box"></i></a>
                                 <a href="#"><i class="ti ti-instagram gla_icon_box"></i></a>
-                                <!-- <a href="#"><i class="ti ti-google gla_icon_box"></i></a> -->
-                                <!-- <a href="#"><i class="ti ti-youtube gla_icon_box"></i></a> -->
-                                <!-- <a href="#"><i class="ti ti-twitter gla_icon_box"></i></a> -->
                                 <a href="#"><i class="ti ti-pinterest gla_icon_box"></i></a>
                             </div>
 
@@ -87,7 +84,7 @@
                             </ul>
                         </li> 
                     </ul>
-                </div>
+                </div> -->
             </div>
 
         </nav>

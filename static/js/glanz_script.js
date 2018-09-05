@@ -447,7 +447,9 @@
 			var year = $(this).attr('data-year');
 			var month = $(this).attr('data-month');
 			var day = $(this).attr('data-day');
-			$(this).countdown({until: new Date(year,month-1,day)});
+			var hour = $(this).attr('data-hour');
+			var minute = $(this).attr('data-minute');
+			$(this).countdown({until: new Date(year,month-1,day,hour,minute)});
 
 		});
 
