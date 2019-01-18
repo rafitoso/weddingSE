@@ -1791,7 +1791,8 @@ ul.mega-menu {
 			float: left;
 		}
 			.gla_logo_container img {
-				height: 40px;
+				height: 45px;
+				margin-top: -2px;
 				width: auto;
 				display: inline-block;
 				top: 22px;
@@ -1803,11 +1804,11 @@ ul.mega-menu {
 				transition: all 0.3s;
 			}
 			.gla_first_step .gla_logo_rev {
-				filter:invert(100%);
+				/*filter:invert(100%);*/
 			}
 				.gla_second_step .gla_logo_container img {
-					height: 19px;
-					top: 18px;
+					height: 30px;
+					top: 13px;
 				}
 			.gla_logo_txt {
 				float: left;

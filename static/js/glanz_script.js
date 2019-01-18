@@ -1,9 +1,9 @@
 ﻿(function($) {
 	"use strict"; // Start of use strict
 	
-
 	$(document).ready(function(){
 
+		console.log("ici2");
 
 		/* Logo Lettering */
 		var logo_rotate = $("header .gla_logo_animation").attr('data-rotate');
@@ -333,6 +333,7 @@
 		/* Section Background */
 
 		$('.gla_image_bck').each(function(){
+			console.log('BCK');
 			var image = $(this).attr('data-image');
 			var gradient = $(this).attr('data-gradient');
 			var color = $(this).attr('data-color');

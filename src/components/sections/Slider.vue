@@ -1,5 +1,5 @@
 <template>
-	<div class="gla_slider gla_image_bck  gla_wht_txt gla_fixed"  data-image="/static/images/sophieEtManCrop.jpg" data-stellar-background-ratio="0.8">
+	<div class="gla_slider gla_image_bck  gla_wht_txt gla_fixed"  data-image="/static/images/sophieetmancrop.jpg" data-stellar-background-ratio="0.8">
         <div class="gla_over" data-color="#9abab6" data-opacity="0.2"></div>
         <div class="container">
             <div class="gla_slide_txt gla_slide_center_bottom text-center">

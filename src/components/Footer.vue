@@ -1,5 +1,5 @@
 <template>
-	<section id="footer" class="gla_section gla_image_bck gla_fixed gla_wht_txt" data-stellar-background-ratio="0.8" data-image="http://placehold.it/1400x800">
+	<section id="footer" class="gla_section gla_fixed gla_wht_txt" data-stellar-background-ratio="0.8" >
 		<div class="gla_over" data-color="#282828" data-opacity="0.4"></div>
         
         <div class="container text-center">
