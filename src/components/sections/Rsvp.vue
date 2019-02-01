@@ -33,7 +33,7 @@
                                 <label class="radio-inline"><input type="radio" name="attend_brunch" value="0">Non... </label>
                             </div>
                             <div class="col-md-12">
-                                <label>Sur quelle chanson aimeriez-vous danser ?</label>
+                                <label>Sur quelles chansons aimeriez-vous danser ?</label>
                                 <input type="text" name="dancing_song" class="form-control form-opacity">
                             </div>
 
