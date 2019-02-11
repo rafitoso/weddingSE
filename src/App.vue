@@ -351,9 +351,8 @@ export default {
     });
 
     /* Section Background */
-
     $('.gla_image_bck').each(function(){
-      console.log('BCK');
+      console.log('BCK_true');
       var image = $(this).attr('data-image');
       var gradient = $(this).attr('data-gradient');
       var color = $(this).attr('data-color');
@@ -362,6 +361,7 @@ export default {
       var position = $(this).attr('data-position');
       var height = $(this).attr('data-height');
       if (image){
+        console.log(image);
         $(this).css('background-image', 'url('+image+')');  
       }
       if (gradient){

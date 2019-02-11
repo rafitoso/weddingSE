@@ -5,41 +5,40 @@
         <div class="text-center">
           <p>
             <img src="/static/images/bouquet_sophie.png" data-bottom-top="/static/images/bouquet_sophie.png; opacity:1" height="250" style="margin-top: -20px;">
-            <!-- <img src="/static/images/animations/flowers2.gif" data-bottom-top="/static/images/animations/flowers2.gif" height="150" alt=""> -->
           </p>
-          <h2>Détails de notre mariage</h2>
-          <h3 class="gla_subtitle">Où & quand</h3>
+          <h2 v-html="$t('when_and_where.h2')"></h2>
+          <h3 class="gla_subtitle" v-html="$t('when_and_where.h3')"></h3>
           <p>
-            Tout le week-end se déroulera autour de Saint-Brisson-sur-Loire. C'est le village où a grandi le petit Emmanuel et où résident toujours ses parents.
+            {{ $t('when_and_where.description')}}
           </p>
         </div>
       
           <timeline align="left">
-            <timeline-title><h3 style="margin:0px;">Le samedi</h3></timeline-title>
+            <timeline-title><h3 style="margin:0px;">{{ $t('when_and_where.timeline.title_1')}}</h3></timeline-title>
             <timeline-item bg-color="#9dd8e0" style="border-bottom: none;">
-              <b>14h30</b> - Rendez-vous à la mairie de Saint-Brisson-sur-Loire <br>
-              <small>22 route d'Autry, 45500, Saint-Brisson-sur-Loire</small>
+              <b>{{ $t('when_and_where.timeline.cityhall.time')}}</b> - {{ $t('when_and_where.timeline.cityhall.title_1')}}<br>
+              <small>{{ $t('when_and_where.timeline.cityhall.title_1')}}</small>
             </timeline-item>
              <timeline-item :hollow="true" class="item-timeline-mimou">
-              Pour la suite de cette merveilleuse journée, direction le <b>domaine du petit Valot, 45500, Saint-Martin-sur-Ocre</b> 
+              <span v-html="$t('when_and_where.timeline.interlude')"></span> 
               <img src="/static/images/mimou-sereine.png">
              </timeline-item>
             <timeline-item bg-color="#9dd8e0">
-              <b>16h30</b> - Cérémonie d'engagement <br>
-              <small>Avec les discours des parents et des témoins...</small>
+              <b>{{ $t('when_and_where.timeline.ceremony.time')}}</b> - {{ $t('when_and_where.timeline.ceremony.title')}} <br>
+              <small>{{ $t('when_and_where.timeline.ceremony.description')}}</small>
             </timeline-item>
             <timeline-item bg-color="#9dd8e0">
-              <b>18h00</b> - Cocktail et dîner<br>
-              <small style="position: relative;">On espère que vous allez vous régalez !<img src="/static/images/mimou-tete.png" style="height: 60px;position: absolute; right: -100px; bottom: -37px;"></small>
+              <b>{{ $t('when_and_where.timeline.cocktail.time')}}</b> - {{ $t('when_and_where.timeline.cocktail.title')}}<br>
+              <small style="position: relative;">{{ $t('when_and_where.timeline.cocktail.description')}}<img src="/static/images/mimou-tete.png" style="height: 60px;position: absolute; right: -100px; bottom: -37px;"></small>
             </timeline-item>
             <timeline-item bg-color="#9dd8e0" style="border-bottom: none;">
-              <b>Minuit</b> - Soirée<br>
-              <small>Jusqu'au bout de la nuit pour célébrer notre mariage avec vous ! <!-- Il y aura peut-être une soupe à l'oignon :) --></small>
+              <b>{{ $t('when_and_where.timeline.party.time')}}</b> - {{ $t('when_and_where.timeline.party.title')}}<br>
+              <small>{{ $t('when_and_where.timeline.party.description')}}</small>
             </timeline-item>
-            <timeline-title><h3 style="margin:0px;">Le dimanche</h3></timeline-title>
+            <timeline-title><h3 style="margin:0px;">{{ $t('when_and_where.timeline.title_2')}}</h3></timeline-title>
             <timeline-item bg-color="#9dd8e0">
-              <b>11h00</b> - Brunch chez les Rafis au <b>41 rue campagne, 45500, Saint-Brisson-sur-Loire</b><br>
-              <small>Venez quand vous voulez et pourquoi pas avec votre maillot de bain !</small>
+              <b>{{ $t('when_and_where.timeline.brunch.time')}}</b> - <span v-html="$t('when_and_where.timeline.brunch.title')"></span><br>
+              <small v-html="$t('when_and_where.timeline.brunch.description')"></small>
             </timeline-item>
             <!-- <timeline-item :hollow="true">item2</timeline-item> -->
           </timeline>

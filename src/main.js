@@ -4,6 +4,11 @@ import Vue from 'vue'
 import VueFire from 'vuefire'
 import App from './App'
 import router from './router'
+import { i18n } from '@/plugins/i18n.js'
+
+
+
+
 const fb = require('./firebaseConfig.js')
 
 let app;
@@ -21,6 +26,7 @@ fb.auth.onAuthStateChanged(function(user){
 		app = new Vue({
 		  el: '#app',
 		  router,
+		  i18n,
 		  components: { App },
 		  template: '<App/>'
 		})

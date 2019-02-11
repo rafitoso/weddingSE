@@ -9,13 +9,13 @@
                     <div class="gla_round_im gla_image_bck" data-image="/static/images/F1020010.jpg" style="margin-top:-70px;margin-bottom:30px;"></div>
                   </div>
                 </div>
-                <h2>Comment Man s'est lancé&nbsp;?</h2>
+                <h2 v-html="$t('our_story.title')"></h2>
                 <div class="row text-center">
                   <div class="col-md-12">   
-                    <p>Durant nos années de vie commune et nos nombreux voyages, nous avons eu un coup de foudre pour la Campanie : cette région d'Italie où il fait bon vivre et manger.</p>
-                    <p>Nous avons découvert un endroit magique où nous retournons chaque année : <strong>baia di Jeranto</strong>.</p>
-                    <p>Puis un 21 Juin 2018, nous y sommes retourné pour, soi-disant, fêter mon anniversaire. C'est en ce lieu si particulier que Man m'a demandé en mariage en ces mots : &laquo;<i> Est-ce que tu veux te marier avec moi ?</i> &raquo;</p>
-                    <cite class="quote"><strong>Oui !!!</strong></cite>
+                    <p v-html="$t('our_story.p1')"></p>
+                    <p v-html="$t('our_story.p2')"></p>
+                    <p><span v-html="$t('our_story.p3')"></span><i> {{ $t('our_story.question') }}</i> &raquo;</p>
+                    <cite class="quote"><strong>{{ $t('our_story.answer') }}</strong></cite>
                   </div>
                 </div>
                 <img src="/static/images/petite-fleur-sophie.png" height="90" style="margin-top: 40px;margin-bottom: -20px;">

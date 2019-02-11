@@ -1,0 +1,60 @@
+{ 
+	"our_story": {
+		"title" : "Comment Man s'est lancé&nbsp;?",
+		"p1": "Durant nos années de vie commune et nos nombreux voyages, nous avons eu un coup de foudre pour la Campanie : cette région d'Italie où il fait si bon vivre et manger.",
+		"p2": "Nous avons découvert un endroit magique où nous retournons chaque année : <strong>baia di Jeranto</strong>.",
+		"p3": "Le 21 Juin 2018 nous y sommes retournés pour, soi-disant, fêter mon anniversaire. C'est en ce lieu si particulier que Man m'a demandé en mariage en ces mots : &laquo;",
+		"question": "Est-ce que tu veux te marier avec moi ?",
+		"answer": "Oui !!!"
+	},
+	"when_and_where": {
+		"h2": "Détails de notre mariage",
+		"h3": "Où & quand",
+		"description": "Tout le week-end se déroulera autour de Saint-Brisson-sur-Loire. C'est le village où a grandi le petit Emmanuel et où résident toujours ses parents.",
+		"timeline": {
+			"title_1": "Le samedi",
+			"title_2": "Le dimanche",
+			"cityhall":{
+				"time":"14h30",
+				"title": "Rendez-vous à la mairie de Saint-Brisson-sur-Loire",
+				"description": "22 route d'Autry, 45500, Saint-Brisson-sur-Loire"
+			},
+			"interlude": "Pour la suite de cette merveilleuse journée, direction le <b>domaine du petit Valot, 45500, Saint-Martin-sur-Ocre</b>",
+			"ceremony":{
+				"time": "17h",
+				"title": "Cérémonie d'engagement ",
+				"description": "Avec les discours des parents et des témoins..."
+			},
+			"cocktail":{
+				"time": "18h30",
+				"title": "Cocktail et dîner",
+				"description": "On espère que vous allez vous régalez !"
+			},
+			"party":{
+				"time": "minuit",
+				"title": "Soirée",
+				"description": "Jusqu'au bout de la nuit pour célébrer notre mariage avec vous !"
+			},
+			"brunch":{
+				"time": "11h00",
+				"title": "Brunch chez les Rafis au <b>41 rue campagne, 45500, Saint-Brisson-sur-Loire</b>",
+				"description": "Venez quand vous voulez et pourquoi pas avec <strong>votre maillot de bain !</strong>"
+			}
+		}
+	},
+	"rsvp": {
+		"form": {
+			"firstname": "Prénom",
+			"lastname": "Nom",
+			"email": "Email",
+			"present": "Serez-vous présent pour la cérémonie du 22 juin et pour le dîner ?",
+			"brunch": "Serez-vous présent pour le brunch du lendemain ?",
+			"answer_yes": "Oui !",
+			"answer_no": "Non...",
+			"songs": "Sur quelles chansons aimeriez-vous danser ?",
+			"notes": "Notes",
+			"hint_notes": "Laissez-nous un petit message",
+			"submit": "Envoyer !"
+		}
+	}
+}

@@ -12,15 +12,12 @@
                 </div>
 
                 
-                <div class="gla_main_menu_content gla_image_bck" data-color="rgba(0,0,0,0.9)" data-image="http://placehold.it/1400x800">
-                    <div class="gla_over" data-color="#000" data-opacity="0.7"></div>
-                    <div class="container">
-                        <ul>
-                            <li class="gla_parent"><a href="#">RSVP</a></li>
-                        </ul>
-                    </div>
-                </div>
+                
+                <div class="text-right">
 
+                        <LanguageSwitcher></LanguageSwitcher>
+
+                </div>
                 <!-- <div class="gla_main_menu_content_menu gla_wht_txt text-right">
                     <div class="container">
                         <ul>
@@ -90,8 +87,12 @@
 </template>
 
 <script>
+import LanguageSwitcher from '@/components/LanguageSwitcher'
 export default {
   name: 'MainHeader',
+  components: {
+    LanguageSwitcher
+  },
   props: {
     visiting: {
       default: 'Home',
