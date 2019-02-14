@@ -114,7 +114,7 @@ export default {
         && this.newAnswer.diner  
         && this.newAnswer.brunch
         ) {
-        return addAnswer();
+        return this.addAnswer();
       }
 
       this.errors = [];

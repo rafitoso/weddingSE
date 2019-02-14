@@ -1,6 +1,6 @@
-# wedding
+# test-deploy
 
-> A Vue.js project to handle S&E wedding website
+> A Vue.js project
 
 ## Build Setup
 
