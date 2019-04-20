@@ -8,6 +8,8 @@
 
     <WhenAndWhere></WhenAndWhere>
 
+    <Registry></Registry>
+
     <rsvp></rsvp>
 
   </div>
@@ -20,6 +22,7 @@ import OurStory from '@/components/sections/OurStory'
 import OurStoryShort from '@/components/sections/OurStoryShort'
 import SaveTheDate from '@/components/sections/SaveTheDate'
 import WhenAndWhere from '@/components/sections/WhenAndWhere'
+import Registry from '@/components/sections/Registry'
 
 export default {
   name: 'Home',
@@ -29,7 +32,8 @@ export default {
     OurStory,
     OurStoryShort,
     SaveTheDate,
-    WhenAndWhere
+    WhenAndWhere,
+    Registry
   },
   props: {
     msg: {

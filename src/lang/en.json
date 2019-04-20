@@ -56,5 +56,10 @@
 			"hint_notes": "Leave us any short message",
 			"submit": "Send!"
 		}
+	},
+	"registry": {
+		"title": "Registry",
+		"cta": "Funding pot",
+		"body": "We’re lucky enough to have nearly everything we need for our home already since we moved together 8 years ago. And since both of us are travel lovers, we want our honeymoon to be extra special! If you want to help make it unforgettable, you can contribute using the link below. There will be a funding pot at our wedding also."
 	}
 }

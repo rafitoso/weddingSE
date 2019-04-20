@@ -16,8 +16,8 @@
           <timeline align="left">
             <timeline-title><h3 style="margin:0px;">{{ $t('when_and_where.timeline.title_1')}}</h3></timeline-title>
             <timeline-item bg-color="#9dd8e0" style="border-bottom: none;">
-              <b>{{ $t('when_and_where.timeline.cityhall.time')}}</b> - {{ $t('when_and_where.timeline.cityhall.title_1')}}<br>
-              <small>{{ $t('when_and_where.timeline.cityhall.title_1')}}</small>
+              <b>{{ $t('when_and_where.timeline.cityhall.time')}}</b> - {{ $t('when_and_where.timeline.cityhall.title')}}<br>
+              <small>{{ $t('when_and_where.timeline.cityhall.description')}}</small>
             </timeline-item>
              <timeline-item :hollow="true" class="item-timeline-mimou">
               <span v-html="$t('when_and_where.timeline.interlude')"></span> 

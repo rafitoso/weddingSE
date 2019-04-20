@@ -24,21 +24,24 @@
                                 <label v-bind:for="'answerEmail_'+newAnswer['.key']" v-html="$t('rsvp.form.email')"></label>
                                 <input v-bind:id="'answerEmail_'+newAnswer['.key']" type="text" name="email" class="form-control form-opacity"  v-model="newAnswer.email">
                             </div>
-                            <div class="clear-both"></div> 
-                            <div class="col-md-12">
+                            <div class="clear"></div> 
+                            <div class="col-xs-12">
                                 <label v-html="$t('rsvp.form.present')"></label>
                                 <label class="radio-inline"><input type="radio" name="attend_diner" value="Oui" v-model="newAnswer.diner">{{ $t('rsvp.form.answer_yes')}}</label>
                                 <label class="radio-inline"><input type="radio" name="attend_diner" value="Non" v-model="newAnswer.diner">{{ $t('rsvp.form.answer_no')}}</label>
                             </div>
-                            <div class="col-md-12">
-                                <label v-html="$t('rsvp.form.present')"></label>
+                            <div class="clear"></div> 
+                            <div class="col-xs-12">
+                                <label v-html="$t('rsvp.form.brunch')"></label>
                                 <label class="radio-inline"><input type="radio" name="attend_brunch" value="Oui" v-model="newAnswer.brunch">{{ $t('rsvp.form.answer_yes')}}</label>
                                 <label class="radio-inline"><input type="radio" name="attend_brunch" value="Non" v-model="newAnswer.brunch">{{ $t('rsvp.form.answer_no')}}</label>
                             </div>
+                            <div class="clear"></div> 
                             <div class="col-md-12">
                                 <label v-html="$t('rsvp.form.songs')"></label>
                                 <input type="text" name="dancing_song" class="form-control form-opacity" v-model="newAnswer.songs">
                             </div>
+                            <div class="clear-both"></div> 
                             <div class="col-md-12">
                                 <label v-html="$t('rsvp.form.notes')"></label>
                                 <textarea name="message" class="form-control form-opacity" :placeholder="$t('rsvp.form.hint_notes')"  v-model="newAnswer.notes"></textarea>
@@ -155,8 +158,8 @@ export default {
             lastname: '',
             firstname: '',
             email: '',
-            diner: '',
-            brunch: '',
+            diner: 'Oui',
+            brunch: 'Oui',
             songs : '',
             notes : ''
           },

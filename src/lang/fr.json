@@ -56,5 +56,10 @@
 			"hint_notes": "Laissez-nous un petit message",
 			"submit": "Envoyer !"
 		}
+	},
+	"registry": {
+		"title": "Liste de mariage",
+		"cta": "Accéder à la cagnotte",
+		"body": "Comme nous avons la change de vivre ensemble depuis 8 ans maintenant, nous avons vraiment presque tout ce que nous souhaitons chez nous. Et comme nous sommes tous les deux amoureux de voyages, nous voulons que notre séjour de noce soit vraiment spécial. Si vous voulez nous aidez à rendre ce moment inoubliable, vous pouvez participer à notre cagnotte via le lien ci-dessous. Une urne sera aussi disponible sur le lieu du mariage."
 	}
 }
